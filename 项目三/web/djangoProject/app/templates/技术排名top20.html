@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/chalk.js"></script>
+
+    
+</head>
+<body>
+    <style>.box { justify-content:center; display:flex; flex-wrap:wrap;  }; </style>
+    <div class="box">
+                <div id="61a7d8e1560f4ae98d59b9df874fadd2" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_61a7d8e1560f4ae98d59b9df874fadd2 = echarts.init(
+            document.getElementById('61a7d8e1560f4ae98d59b9df874fadd2'), 'chalk', {renderer: 'canvas'});
+        var option_61a7d8e1560f4ae98d59b9df874fadd2 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "name": "\u6280\u672f",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "Spark",
+                    "value": 752
+                },
+                {
+                    "name": "Java",
+                    "value": 655
+                },
+                {
+                    "name": "\u5927\u6570\u636e\u5f00\u53d1\u7ecf\u9a8c",
+                    "value": 579
+                },
+                {
+                    "name": "Python",
+                    "value": 551
+                },
+                {
+                    "name": "Hadoop",
+                    "value": 443
+                },
+                {
+                    "name": "\u8ba1\u7b97\u673a\u76f8\u5173\u4e13\u4e1a",
+                    "value": 430
+                },
+                {
+                    "name": "Flink",
+                    "value": 428
+                },
+                {
+                    "name": "SQL",
+                    "value": 425
+                },
+                {
+                    "name": "Kafka",
+                    "value": 302
+                },
+                {
+                    "name": "Hive",
+                    "value": 284
+                },
+                {
+                    "name": "\u5927\u6570\u636e",
+                    "value": 284
+                },
+                {
+                    "name": "\u6570\u4ed3\u5efa\u8bbe\u7ecf\u9a8c",
+                    "value": 212
+                },
+                {
+                    "name": "Scala",
+                    "value": 203
+                },
+                {
+                    "name": "HIVE",
+                    "value": 195
+                },
+                {
+                    "name": "Hbase",
+                    "value": 181
+                },
+                {
+                    "name": "Shell",
+                    "value": 142
+                },
+                {
+                    "name": "ETL\u5f00\u53d1\u7ecf\u9a8c",
+                    "value": 142
+                },
+                {
+                    "name": "\u6570\u5b66/\u7edf\u8ba1\u76f8\u5173\u4e13\u4e1a",
+                    "value": 133
+                },
+                {
+                    "name": "\u6570\u636e\u4ed3\u5e93",
+                    "value": 112
+                },
+                {
+                    "name": "\u6570\u636e\u5206\u6790",
+                    "value": 94
+                }
+            ],
+            "radius": [
+                "20%",
+                "70%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "radius",
+            "label": {
+                "show": true,
+                "position": "outside",
+                "margin": 8,
+                "formatter": "{a|{a}}{abg|}\n{hr|}\n{b|{b}:}{c} {per|{d}%}",
+                "backgroundColor": "#b0eef9",
+                "borderWidth": 1,
+                "borderRadius": 5,
+                "rich": {
+                    "a": {
+                        "color": "blue",
+                        "lineHeight": 20,
+                        "align": "center",
+                        "fontSize": 10
+                    },
+                    "abg": {
+                        "backgroundColor": "#7fcee4",
+                        "width": "100%",
+                        "align": "right",
+                        "borderRadius": [
+                            4,
+                            4,
+                            0,
+                            0
+                        ]
+                    },
+                    "hr": {
+                        "borderColor": "black",
+                        "width": "100%",
+                        "borderWidth": 0.2,
+                        "height": 0
+                    },
+                    "b": {
+                        "fontSize": 12,
+                        "lineHeight": 25
+                    },
+                    "d": {
+                        "color": "violet",
+                        "backgroundColor": "#334455",
+                        "borderRadius": 2,
+                        "padding": [
+                            2,
+                            3
+                        ]
+                    },
+                    "per": {
+                        "color": "violet",
+                        "backgroundColor": "#334455",
+                        "borderRadius": 2,
+                        "padding": [
+                            2,
+                            3
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Spark",
+                "Java",
+                "\u5927\u6570\u636e\u5f00\u53d1\u7ecf\u9a8c",
+                "Python",
+                "Hadoop",
+                "\u8ba1\u7b97\u673a\u76f8\u5173\u4e13\u4e1a",
+                "Flink",
+                "SQL",
+                "Kafka",
+                "Hive",
+                "\u5927\u6570\u636e",
+                "\u6570\u4ed3\u5efa\u8bbe\u7ecf\u9a8c",
+                "Scala",
+                "HIVE",
+                "Hbase",
+                "Shell",
+                "ETL\u5f00\u53d1\u7ecf\u9a8c",
+                "\u6570\u5b66/\u7edf\u8ba1\u76f8\u5173\u4e13\u4e1a",
+                "\u6570\u636e\u4ed3\u5e93",
+                "\u6570\u636e\u5206\u6790"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_61a7d8e1560f4ae98d59b9df874fadd2.setOption(option_61a7d8e1560f4ae98d59b9df874fadd2);
+    </script>
+<br/>                <div id="68266f89a42e48a0a687b1488f7c7384" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_68266f89a42e48a0a687b1488f7c7384 = echarts.init(
+            document.getElementById('68266f89a42e48a0a687b1488f7c7384'), 'chalk', {renderer: 'canvas'});
+        var option_68266f89a42e48a0a687b1488f7c7384 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "legendHoverLink": true,
+            "data": [
+                752,
+                655,
+                579,
+                551,
+                443,
+                430,
+                428,
+                425,
+                302,
+                284,
+                284,
+                212,
+                203,
+                195,
+                181,
+                142,
+                142,
+                133,
+                112,
+                94
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": 30,
+                "margin": 8,
+                "interval": 0
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "Spark",
+                "Java",
+                "\u5927\u6570\u636e\u5f00\u53d1\u7ecf\u9a8c",
+                "Python",
+                "Hadoop",
+                "\u8ba1\u7b97\u673a\u76f8\u5173\u4e13\u4e1a",
+                "Flink",
+                "SQL",
+                "Kafka",
+                "Hive",
+                "\u5927\u6570\u636e",
+                "\u6570\u4ed3\u5efa\u8bbe\u7ecf\u9a8c",
+                "Scala",
+                "HIVE",
+                "Hbase",
+                "Shell",
+                "ETL\u5f00\u53d1\u7ecf\u9a8c",
+                "\u6570\u5b66/\u7edf\u8ba1\u76f8\u5173\u4e13\u4e1a",
+                "\u6570\u636e\u4ed3\u5e93",
+                "\u6570\u636e\u5206\u6790"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5927\u6570\u636e\u4e13\u4e1a\u4f7f\u7528\u6700\u5e7f\u6cdb\u7684\u6280\u672f\u6392\u540dtop20",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 40
+            }
+        }
+    ]
+};
+        chart_68266f89a42e48a0a687b1488f7c7384.setOption(option_68266f89a42e48a0a687b1488f7c7384);
+    </script>
+<br/>    </div>
+    <script>
+    </script>
+</body>
+</html>
